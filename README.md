@@ -3,3 +3,5 @@
 </div>
 
                                         https://rxjs-dev.firebaseapp.com/
+
+<img src="https://img.shields.io/static/v1?label=Angular&message=Library&color=red&style=for-the-badge&logo=Angular"/>
