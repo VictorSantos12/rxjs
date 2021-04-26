@@ -16,23 +16,23 @@ Os conceitos fundamentais em RxJS, cujas funções são prover o gerenciamento d
 
 <ul>
   <li>
-    Observable: representa a ideia de uma coleção de valores ou futuros eventos invocáveis
+    <strong>Observable:</strong> representa a ideia de uma coleção de valores ou futuros eventos invocáveis
   </li>
   <li>
-    Observer: é uma coleção de callbacks que sabem como tratar valores entregues pelo Observable
+    <strong>Observer:</strong> é uma coleção de callbacks que sabem como tratar valores entregues pelo Observable
   </li>
   <li>
-    Subscription: representa a execução de um Observable, sendo primariamente inútil para o cancelamento de execução
+    <strong>Subscription:</strong> representa a execução de um Observable, sendo primariamente inútil para o cancelamento de execução
   </li>
   <li>
-    Operators: são funções puras que permitem um estilo de programação funcional para lidar com collections, com operações
+    <strong>Operators:</strong> são funções puras que permitem um estilo de programação funcional para lidar com collections, com operações
     como map, filter, concat, reduce, etc.
   </li>
   <li>
-    Subject: é o equivalente a um EventEmitter, sendo o único meio de emitir um valor ou evento para muilplos Observers
+    <strong>Subject:</strong> é o equivalente a um EventEmitter, sendo o único meio de emitir um valor ou evento para muilplos Observers
   </li>
   <li>
-    Schedulers: são dispatchers centralizados para controlar a simultaneidade, permitindo coordenar quando o processamento
+    <strong>Schedulers:</strong> são dispatchers centralizados para controlar a simultaneidade, permitindo coordenar quando o processamento
     acontece, por exemplo, setTimeout ou requestAnimationFrame ou outros.
   </li>
 </ul>
