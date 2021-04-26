@@ -44,6 +44,10 @@ O padrão de desenvolvimento Observer define que um objeto central chamado de <s
 suas dependências, estas chamadas de <strong>Observers</strong>, as notificando automaticamente caso aja qualquer mudança de
 estado
 
+<div align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/61476935/116111712-4a2d1480-a68d-11eb-937f-d55d8433563c.png">
+</div>
+
 <h1>
   Iterator Pattern
 </h1>
