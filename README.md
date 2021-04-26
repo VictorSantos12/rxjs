@@ -7,10 +7,9 @@
 
 O RxJS é uma biblioteca de composição de programas assíncronos e baseados em eventos usando sequências de observables. Ela fornece um
 núcleo chamado de Observable, e receptores (Observer, Schedulers, Subjects), além de operadores inspirados em métodos comuns a vetores
-(map, filter, reduce, every, etc), os quais permitem tratar eventos assíncronos como collections
-
-O ReactiveX combina o Observer Pattern o Interator Pattern e Programação Funcional com collections para preencher a necessidade por
-um método de gerenciamento de sequências de eventos ideal
+(map, filter, reduce, every, etc), os quais permitem tratar eventos assíncronos como collections. O ReactiveX combina o Observer Pattern
+o Interator Pattern e Programação Funcional com collections para preencher a necessidade por um método de gerenciamento de sequências de
+eventos ideal
 
 Os conceitos fundamentais em RxJS, cujas funções são prover o gerenciamento de eventos assícronos são: 
 
