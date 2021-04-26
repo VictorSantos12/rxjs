@@ -4,9 +4,46 @@
 <br>
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=Library&color=pink&style=for-the-badge&logo=JavaScript"/>
 
+
+O RxJS é uma biblioteca de composição de programas assíncronos e baseados em eventos usando sequências de observables. Ela fornece um
+núcleo chamado de Observable, e receptores (Observer, Schedulers, Subjects), além de operadores inspirados em métodos comuns a vetores
+(map, filter, reduce, every, etc), os quais permitem tratar eventos assíncronos como collections
+
+O ReactiveX combina o Observer Pattern o Interator Pattern e Programação Funcional com collections para preencher a necessidade por
+um método de gerenciamento de sequências de eventos ideal
+
+Os conceitos fundamentais em RxJS, cujas funções são prover o gerenciamento de eventos assícronos são: 
+
+<ul>
+  <li>
+    Observable: representa a ideia de uma coleção de valores ou futuros eventos invocáveis
+  </li>
+  <li>
+    Observer: é uma coleção de callbacks que sabem como tratar valores entregues pelo Observable
+  </li>
+  <li>
+    Subscription: representa a execução de um Observable, sendo primariamente inútil para o cancelamento de execução
+  </li>
+  <li>
+    Operators: são funções puras que permitem um estilo de programação funcional para lidar com collections, com operações
+    como map, filter, concat, reduce, etc.
+  </li>
+  <li>
+    Subject: é o equivalente a um EventEmitter, sendo o único meio de emitir um valor ou evento para muilplos Observers
+  </li>
+  <li>
+    Schedulers: são dispatchers centralizados para controlar a simultaneidade, permitindo coordenar quando o processamento
+    acontece, por exemplo, setTimeout ou requestAnimationFrame ou outros.
+  </li>
+</ul>
+
 <h1>
   Observer Pattern
 </h1>
+
+O padrão de desenvolvimento Observer define que um objeto central chamado de <strong>Subject</strong> mantenha uma lista de
+suas dependências, estas chamadas de <strong>Observers</strong>, as notificando automaticamente caso aja qualquer mudança de
+estado
 
 <h1>
   Iterator Pattern
