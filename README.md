@@ -4,7 +4,17 @@
 <br>
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=Library&color=pink&style=for-the-badge&logo=JavaScript"/>
 
-### Participante: 
-||||||
-| -------- | -------- | -------- |-------- | -------- |
-||||||
+<h1>
+  Observer Pattern
+</h1>
+
+<h1>
+  Iterator Pattern
+</h1>
+
+<h1>
+  Functional Programming
+</h1>
+
+
+ 
